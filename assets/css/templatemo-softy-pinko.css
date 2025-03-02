@@ -389,11 +389,12 @@ header
 */
 .header-area {
   position: fixed;
-  top: 30px;
+  top: 0;
   left: 0px;
   right: 0px;
   z-index: 100;
   height: 100px;
+  width: 100%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -403,10 +404,7 @@ header
 .header-area .main-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 40px;
-  min-height: 80px;
   background: #fff;
   padding-left: 20px; /* Add padding to the left */
 }
@@ -423,8 +421,8 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  max-height: 50px; /* Adjust the height as needed */
-  width: auto; /* Maintain aspect ratio */
+  height: 50px; /* Adjust the height as needed */
+  /* Maintain aspect ratio */
 }
 
 .header-area .main-nav .nav {
@@ -443,6 +441,7 @@ header
 .header-area .main-nav .nav li {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -451,14 +450,13 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  height: 40px;
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
@@ -508,7 +506,6 @@ header
   width: 30px;
   height: 2px;
   left: 0;
-  width: 75%;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -564,9 +561,7 @@ header
   min-height: 80px;
 }
 
-.header-area.header-sticky .logo {
-  margin-top: 25px;
-}
+
 
 .header-area.header-sticky .nav {
   margin-top: 20px !important;
@@ -613,7 +608,6 @@ header
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
-    margin-top: 80px;
     display: none;
     -webkit-transition: all 0s ease 0s;
     -moz-transition: all 0s ease 0s;
