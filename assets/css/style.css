@@ -13,7 +13,6 @@ body {
 
 .main-nav {
     background-color: #8becff;
-    border-radius: 10px;
 }
 
 li a{
@@ -22,3 +21,5 @@ li a{
    line-height: 24px;
    color: #ff0606;
 }
+
+

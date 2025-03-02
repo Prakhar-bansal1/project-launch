@@ -389,7 +389,7 @@ header
 */
 .header-area {
   position: fixed;
-  top: 30px;
+  top: 0;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -441,6 +441,7 @@ header
 .header-area .main-nav .nav li {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .header-area .main-nav .nav li:last-child {
