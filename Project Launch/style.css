@@ -69,7 +69,6 @@ p {
 }
 
 .btn:hover {
-    /* background-color: rgb(145, 145, 255); */
     color: var(--font-color);
 }
 
