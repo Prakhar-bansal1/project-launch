@@ -165,7 +165,7 @@
 
 /* ========= Mobile Device ======== */
 
-@media (max-width:390px)  {
+@media screen  and (min-width:390px) and (max-width:819px)  {
     
     .nav-list {
         width: 100%;
@@ -213,7 +213,6 @@
         margin: 10px 0px;
         text-align: center;
         display: flex;
-        flex-direction: column;
     }
 
     .work-container .card img  {

@@ -140,7 +140,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#ffffff,#ade7f6, #ffffff);
+    background: linear-gradient(#ffffff, #ade7f6,  #ffffff);
     position: relative;
 }
 
