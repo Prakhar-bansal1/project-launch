@@ -177,19 +177,20 @@
 
     .container {
         text-align: start;
-        padding-top: 30px;
         color: var(--font-color);
         margin-top: 80px;
-        height: 65vh;
         width: 100%;
     }
 
     .container h2 {
         margin: 0px 0;
         color: #181818;
-        line-height: 76px;
+        line-height: 66px;
         font-size: 50px;
         max-width: 380px;
+    }
+    .custom-shape-divider-bottom-1740903957 {
+        display: none;
     }
 
     .container p {
